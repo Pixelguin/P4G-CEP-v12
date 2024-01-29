@@ -2,7 +2,7 @@
   "ModId": "p4gpc.communityenhancementpack12",
   "ModName": "P4G Community Enhancement Pack",
   "ModAuthor": "P4G CEP Team",
-  "ModVersion": "12.4.2",
+  "ModVersion": "12.5.0",
   "ModDescription": "An all-in-one collection of tools and mods for Persona 4 Golden.\nCompiled and maintained by Pixelguin.",
   "ModDll": "",
   "ModIcon": "Preview.png",
@@ -33,15 +33,6 @@
           },
           "ReleaseMetadataName": "p5rpc.modloader.ReleaseMetadata.json"
         },
-        "crifs.v2.hook": {
-          "Config": {
-            "UserName": "Sewer56",
-            "RepositoryName": "CriFs.V2.Hook.ReloadedII",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
-        },
         "Reloaded.Memory.SigScan.ReloadedII": {
           "Config": {
             "UserName": "Reloaded-Project",
@@ -60,6 +51,15 @@
           },
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
         },
+        "crifs.v2.hook": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "CriFs.V2.Hook.ReloadedII",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
+        },
         "CriFs.V2.Hook.Awb": {
           "Config": {
             "UserName": "Sewer56",
@@ -68,6 +68,15 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.Awb.ReleaseMetadata.json"
+        },
+        "reloaded.universal.fileemulationframework.bf": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "FileEmulationFramework",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "BF.File.Emulator.ReleaseMetadata.json"
         },
         "reloaded.universal.fileemulationframework.pak": {
           "Config": {
@@ -78,14 +87,14 @@
           },
           "ReleaseMetadataName": "PAK.Stream.Emulator.ReleaseMetadata.json"
         },
-        "reloaded.universal.fileemulationframework.bf": {
+        "reloaded.universal.fileemulationframework.spd": {
           "Config": {
             "UserName": "Sewer56",
             "RepositoryName": "FileEmulationFramework",
             "UseReleaseTag": false,
             "AssetFileName": "Mod.zip"
           },
-          "ReleaseMetadataName": "BF.File.Emulator.ReleaseMetadata.json"
+          "ReleaseMetadataName": "SPD.File.Emulator.ReleaseMetadata.json"
         },
         "reloaded.universal.fileemulationframework.awb": {
           "Config": {
@@ -121,8 +130,8 @@
   },
   "IsUniversalMod": false,
   "ModDependencies": [
-    "BGME.Framework",
     "p4gpc.inaba",
+    "BGME.Framework",
     "p5rpc.modloader"
   ],
   "OptionalDependencies": [],
