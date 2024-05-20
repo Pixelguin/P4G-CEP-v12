@@ -1,9 +1,9 @@
 {
   "ModId": "p4gpc.communityenhancementpack12",
-  "ModName": "P4G Community Enhancement Pack",
+  "ModName": "[v13 now available \u2013 check description] P4G Community Enhancement Pack",
   "ModAuthor": "P4G CEP Team",
-  "ModVersion": "12.6.0",
-  "ModDescription": "An all-in-one collection of tools and mods for Persona 4 Golden.\nCompiled and maintained by Pixelguin.",
+  "ModVersion": "12.99.0",
+  "ModDescription": "P4G CEP v13 is now available!\n\nVisit p4g.cep.one/upgrade to learn more,\nor right-click this mod and select Visit Website.",
   "ModDll": "",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "",
@@ -59,6 +59,15 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
+        },
+        "p5rpc.lib": {
+          "Config": {
+            "UserName": "AnimatedSwine37",
+            "RepositoryName": "p5rpc.lib",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "p5rpc.lib.ReleaseMetadata.json"
         },
         "CriFs.V2.Hook.Awb": {
           "Config": {
@@ -124,6 +133,13 @@
             "ItemId": 477399
           },
           "ReleaseMetadataName": "BGME.Framework.ReleaseMetadata.json"
+        },
+        "BGME.Framework.API": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 477399
+          },
+          "ReleaseMetadataName": "BGME.Framework.API.ReleaseMetadata.json"
         }
       }
     }
